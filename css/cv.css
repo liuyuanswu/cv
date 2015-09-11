@@ -1,0 +1,115 @@
+*{
+    font-family: "Microsoft Yahei";
+}
+img{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    color: #608;
+    font-size: 15px;
+    font-family: "Kaiti";
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 2em;
+}
+dt{
+    margin: 4px 0;
+}
+
+.main{
+    width: 980px;
+    margin: 0 auto;
+}
+img{
+    float: right;
+}
+
+.note{
+    font-family: "Kaiti";
+}
+
+
+
+
+.box_container{
+    display: flex;
+}
+.box{
+    flex:1;
+    width:100px;
+    height:100px;
+    margin:10px auto;
+    position:relative;
+}
+.box div{
+    position:absolute;
+    top:0;
+    left:0;
+    border-radius:50%;
+    height:80px;
+    width:80px;
+}
+.box .bg{
+    border:#fff 10px solid}
+.box .bg2{
+    border:#fff 10px solid;
+    clip:rect(0,50px,100px,0);
+}
+.box .round{
+    border:#000 10px solid;
+    clip:rect(0,50px,100px,0);
+    -webkit-transform:rotate(0deg);
+}
+.box .round2{
+    border:#000 10px solid;
+    clip:rect(0,100px,100px,50px);
+    -webkit-transform:rotate(0deg);
+    display:none
+}
+.box .num{
+    font:bold 18px/100px tahoma;
+    text-align:center;
+    color:#000;
+    top:10px;
+    left:10px;
+    z-index:9;
+}
+.points{
+    width:100px;
+    margin:10px auto;
+    text-align: center;
+}
+#html,#css,#js,#jquery,#java{
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+#html2{
+    display: block;
+    -webkit-transform:rotate(126deg);
+    transform:rotate(126deg);
+}
+#css2{
+    display: block;
+    -webkit-transform:rotate(108deg);
+    transform:rotate(108deg);
+}
+#js2{
+    display: block;
+    -webkit-transform:rotate(72deg);
+    transform:rotate(72deg);
+}
+#jquery2{
+    display: block;
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+#java2{
+    display: block;
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
